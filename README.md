@@ -23,15 +23,10 @@ In the heart of Urban Euphoria, where beats drop heavy and rhymes flow smooth, *
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React
-- **Backend**: Express
+- **Frontend**: React, JavaScript, Vite
+- **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
 - **Styling**: Tailwind CSS
 
-## 🏗️ Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/PranjalTheCoder/DR-DREs-STUDIO.git
-   cd DR-DREs-STUDIO
