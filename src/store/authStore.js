@@ -2,16 +2,7 @@ import create from 'zustand';
 import axios from 'axios';
 import { persist } from 'zustand/middleware';
 
-interface AuthState {
-  user: any | null;
-  token: string | null;
-  isAuthenticated: boolean;
-  login: (email: string, password: string) => Promise<void>;
-  register: (username: string, email: string, password: string) => Promise<void>;
-  logout: () => void;
-}
-
-export const useAuthStore = create<AuthState>()(
+export const useAuthStore = create(
   persist(
     (set) => ({
       user: null,
