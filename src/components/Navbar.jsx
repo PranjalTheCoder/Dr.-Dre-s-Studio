@@ -5,7 +5,7 @@ import { Mic2, Music2, Users, User } from 'lucide-react';
 
 const Navbar = () => {
   const { isAuthenticated, user, logout } = useAuthStore();
-
+//link tag used
   return (
     <nav className="bg-black/50 backdrop-blur-sm border-b border-purple-900">
       <div className="container mx-auto px-4">
