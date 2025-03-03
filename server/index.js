@@ -27,7 +27,6 @@ app.use('/api/auth', authRoutes);
 app.use('/api/battles', battleRoutes);
 app.use('/api/users', userRoutes);
 
-// Socket.IO connection handling
 io.on('connection', (socket) => {
   console.log('User connected:', socket.id);
 
