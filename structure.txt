@@ -1,0 +1,47 @@
+DR-DRES-STUDIO/
+├── public/
+│   ├── index.html                  # Main HTML file
+│   ├── favicon.ico                 # Favicon
+│   └── assets/                     # Static assets like images, logos
+│       └── logo.png                # Sample logo file
+├── src/
+│   ├── components/                 # Reusable UI components
+│   │   ├── Header.js               # Header component with navigation links
+│   │   ├── Footer.js               # Footer component with social links and copyrights
+│   │   ├── Navbar.js               # Navbar for routing navigation
+│   │   └── Sidebar.js              # Sidebar for dashboard navigation (if needed)
+│   ├── pages/                      # Main pages of the application
+│   │   ├── Home.js                 # Homepage
+│   │   ├── Login.js                # Login page
+│   │   ├── Signup.js               # Signup page
+│   │   ├── Profile.js              # User profile page
+│   │   ├── BattleList.js           # List of battles page
+│   │   ├── UploadBattle.js         # Upload new battle page
+│   │   ├── Dashboard.js            # User dashboard page
+│   │   ├── Rankings.js             # Rankings page
+│   │   ├── BattleDetails.js        # Detailed view of a battle
+│   │   ├── Crews.js                # Crew listings page
+│   │   ├── ProfileSettings.js      # Profile settings and editing page
+│   │   ├── Notifications.js        # Notifications page
+│   │   ├── VotingResults.js        # Voting results page for battles
+│   │   ├── Terms.js                # Terms and conditions page
+│   │   ├── About.js                # About us page
+│   │   └── Contact.js              # Contact us page
+│   ├── services/                   # API and backend services
+│   │   ├── authServices.js         # Auth API requests for login/signup
+│   │   ├── battleServices.js       # API requests related to battles
+│   │   └── profileServices.js      # Profile-related API requests
+│   ├── utils/                      # Utility functions and helpers
+│   │   └── auth.js                 # Token storage, retrieval, and removal
+│   ├── styles/                     # CSS and styling files
+│   │   ├── App.css                 # Global styles for the app
+│   │   ├── index.css               # Main stylesheet with Tailwind setup
+│   │   └── components/             # Component-specific styles if not using inline styles
+│   ├── App.js                      # Main app component that sets up routing
+│   ├── index.js                    # Entry point for React application
+│   ├── tailwind.config.js          # Tailwind CSS configuration file
+│   └── config.js                   # Configuration settings, e.g., base URL
+├── .env                            # Environment variables for sensitive data
+├── .gitignore                      # Files and directories to ignore in Git
+├── package.json                    # Project metadata and dependencies
+└── README.md                       # Documentation for the project
